@@ -38,10 +38,10 @@ t1.to('#loader',{
 });
 
 t1.from("#page1",{
-  delay:0.2,
+  delay:0.1,
   y:1600,
-  duration:0.6,
- ease:Power4
+  duration:0.5,
+  ease: Power4,
 })
 
 t1.to("#loader",{
@@ -52,9 +52,9 @@ t1.from("#nav",{
   opacity:0
 })
 
-t1.from("#hero1 h1 ,#hero2 h1 ,#hero3 h2 ,  #hero4 h1",{
-  y:120,
-  stagger:0.1
+t1.from("#hero1 h1 ,#hero2 h1 ,#hero3 h2 ,#hero4 h1",{
+  y:140,
+  stagger:0.2 
 })
 }
 loadingAnimation();
